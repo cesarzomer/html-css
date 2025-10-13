@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgrey;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 4px 5px 6px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 9px 0px;
+            box-shadow: 4px 4px 7px black;
+        }
+
+        article {
+            background-color: red;
+            border: 2px solid black;
+
+        }
+
+        article > aside {
+            background-color: black;
+            color: white;
+            width: 160px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            border-top: 2px;
+            border-right: 2px;
+            border-bottom: 2px;
+            border-left: 2px;
+            padding: 1px 1px 1px 1px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="notícias">
+            <article>
+                <h2>Patch novo do LOL</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor minus fuga corrupti odit tempora earum, dolores, itaque velit excepturi dolorum corporis veniam? Beatae est nemo consequuntur quis, laborum temporibus.</p>
+                <aside>
+                    <p>Feito por Riot Games.<p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Cesar.
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
